@@ -1,0 +1,21 @@
+GET http://localhost:5000/angkas
+
+###
+GET http://localhost:5000/angkas/1
+
+###
+GET http://localhost:5000/angkas?search_kepala=4&search_ekor=6&search_hasil=genap&page=0&limit=10
+
+
+###
+POST http://localhost:5000/angkas
+Content-Type: application/json
+
+{
+    "kepala" : 2,
+    "ekor": 2,
+    "hasil": "genap"
+}
+
+###
+DELETE http://localhost:5000/angkas/1
