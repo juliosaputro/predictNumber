@@ -7,8 +7,11 @@
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
 <<<<<<< HEAD:frontend/package.json
+<<<<<<< HEAD:frontend/package.json
     "axios": "^0.27.2",
     "firebase": "^9.10.0",
+=======
+>>>>>>> parent of db33de2 (firts):package.json
 =======
 >>>>>>> parent of db33de2 (firts):package.json
     "react": "^18.2.0",
